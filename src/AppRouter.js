@@ -4,12 +4,12 @@ import App from './App';
 import Add from './Add';
 import Edit from './Edit';
 
+
+
 function AppRouter() {
   return (
     
-    <BrowserRouter>
-       
-       
+    <BrowserRouter>  
         <Routes>
             <Route path='/' element={<App/>}/>
             <Route path='/create' element={<Add/>}/>
